@@ -12,6 +12,13 @@ form.onsubmit = function (event) {
     const weight = inputWeight.value
     const height = inputHeight.value
 
+    const showAlertError = notANumber(weight) || notANumber(height)
+
+    if (showAlertError) {
+        alert('data error')
+        return;
+    }
+
     const result = IMC(weight, height)
     const message = `O seu IMC é de ${result}`
 
@@ -26,7 +33,10 @@ form.onsubmit = function (event) {
 // form.onsubmit = handleSubmit
 // function handleSubmit() {}
 
+function notANumber(value) {
+    return isNaN(value) || value == ""
+}
+
 function IMC(weight, height) {
     return (weight / ((height / 100) ** 2)).toFixed(1)
 }
-
