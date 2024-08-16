@@ -170,6 +170,7 @@ form button:hover {
     left: 0;
     right: 0;
     text-align: center;
+    font-weight: bold;
     color: var(--tt-error);
     padding: .8rem 0;
 
