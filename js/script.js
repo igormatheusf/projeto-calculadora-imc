@@ -1,12 +1,12 @@
 import { Modal } from './modal.js'
 import { AlertError } from './alert-error.js'
+import { IMC, notANumber } from './utils.js'
 
 // variables
 const form = document.querySelector('form')
 const inputWeight = document.querySelector('#weight')
 const inputHeight = document.querySelector('#height')
 
-// 3 maneiras de criar e atribuir função ao evento
 form.onsubmit = function (event) {
     event.preventDefault()
 
@@ -27,19 +27,4 @@ form.onsubmit = function (event) {
 
     Modal.message.innerText = message
     Modal.open()
-}
-
-// or
-// form.submit = () => {}
-
-// or
-// form.onsubmit = handleSubmit
-// function handleSubmit() {}
-
-function notANumber(value) {
-    return isNaN(value) || value == ""
-}
-
-function IMC(weight, height) {
-    return (weight / ((height / 100) ** 2)).toFixed(1)
 }
