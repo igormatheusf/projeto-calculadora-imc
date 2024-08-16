@@ -25,7 +25,7 @@ form.onsubmit = function (event) {
     displayResultMessage(result)
 }
 
-export function displayResultMessage(result) {
+function displayResultMessage(result) {
     const message = `O seu IMC é de ${result}`
 
     Modal.message.innerText = message
