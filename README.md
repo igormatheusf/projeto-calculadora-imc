@@ -11,7 +11,11 @@
 
 ## 🖥 Preview
 
+Data screen
 <img align="center" src=".github/imc-calculator-screen.png">
+
+Result screen
+<img align="center" src=".github/imc-calculator-result-screen.png">
 
 
 ## 🚀 Tecnologias
