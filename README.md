@@ -1,4 +1,4 @@
-<h1 align="center">Projeto Calculadora IMC</h1>
+<h1 align="center">Projeto Calculadora de IMC</h1>
 
 <p align="center">
   <a href="#-preview">Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
