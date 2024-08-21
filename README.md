@@ -39,5 +39,5 @@ Principais conceitos trabalhados:
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/design/0Nx9ADfqGq7alN4wYyItif/Jogo-Adivinha%C3%A7%C3%A3o-(Copy)?m=auto&t=MuvjJQEIuH421jYg-6), no Figma.<br>
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/design/wTaKJj7sDK1KR71wolJxPk/IMC-(Copy)?m=auto&t=J5gNQPO7cwCscCDV-6), no Figma.<br>
 designed by Rocketseat
